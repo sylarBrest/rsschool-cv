@@ -10,5 +10,7 @@
 
 ## Languages
 __English__ - Intermediate/Upper-Intermediate
+
 ![EF SET Certificate](certificate_70.png)
+
 __Russian__ - Native speaker
