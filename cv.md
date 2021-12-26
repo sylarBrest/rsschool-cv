@@ -8,7 +8,9 @@
 ----------------------
 ## About Me
 
+For about 10 years I work as system administrator in Brest State A.S. Pushkin University. It's a cool job, but now I want to change direction in IT. I want users could see result of my job by their eyes.
 
+I would make huge work to learn JS and React.
 -----------------
 ## Skills
 * HTML5, CSS3
@@ -24,7 +26,6 @@ Given a non-negative integer `n`, write a function `to_binary/ToBinary` which re
 ```
 function toBinary(n){
     var x;
-    // Тут нужно написать решение
     x='';
     while (n!=0) {
         x=n%2+x;
@@ -33,13 +34,18 @@ function toBinary(n){
     return Number(x);
 }
 ```
-
 ----------------
 ## Experience
 
+[CV#1. Markdown & Git](https://github.com/sylarBrest/rsschool-cv "CV#1. Markdown & Git")
 -------------
 ## Education
 
+* 2005-2010 Brest State A.S. Pushkin University, Applied mathematics
+* 2012 English for IT-specialists
+
+__Courses:__
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ---------------
 ## Languages
 __English__ - Intermediate/Upper-Intermediate
