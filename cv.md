@@ -11,6 +11,7 @@
 For about 10 years I work as system administrator in Brest State A.S. Pushkin University. It's a cool job, but now I want to change direction in IT. I want users could see result of my job by their eyes.
 
 I would make huge work to learn JS and React.
+
 -----------------
 ## Skills
 * HTML5, CSS3
@@ -37,7 +38,7 @@ function toBinary(n){
 ----------------
 ## Experience
 
-[CV#1. Markdown & Git](https://github.com/sylarBrest/rsschool-cv "CV#1. Markdown & Git")
+[CV#1. Markdown & Git](https://sylarbrest.github.io/rsschool-cv/cv "CV#1. Markdown & Git")
 -------------
 ## Education
 
