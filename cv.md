@@ -5,6 +5,7 @@
 * __E-Mail:__ aostrovsky87@gmail.com
 * __GitHub:__ [sylarBrest](https://github.com/sylarBrest "GitHub sylarBrest")
 * __Telegram:__ [@sylarBrest](https://t.me/sylarBrest "Chat with sylarBrest")
+
 ----------------------
 ## About Me
 
@@ -19,6 +20,7 @@ I would make huge work to learn JS and React.
 * Git (basics)
 * PHP, SQL (basics)
 * Unix & Windows administration
+
 ----------------
 ## Code example
 
@@ -35,10 +37,12 @@ function toBinary(n){
     return Number(x);
 }
 ```
+
 ----------------
 ## Experience
 
 [CV#1. Markdown & Git](https://sylarbrest.github.io/rsschool-cv/cv "CV#1. Markdown & Git")
+
 -------------
 ## Education
 
@@ -47,6 +51,7 @@ function toBinary(n){
 
 __Courses:__
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
 ---------------
 ## Languages
 __English__ - Intermediate/Upper-Intermediate
