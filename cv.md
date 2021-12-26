@@ -41,7 +41,7 @@ function toBinary(n){
 ----------------
 ## Experience
 
-[CV#1. Markdown & Git](https://sylarbrest.github.io/rsschool-cv/cv "CV#1. Markdown & Git")
+* [CV#1. Markdown & Git](https://sylarbrest.github.io/rsschool-cv/cv "CV#1. Markdown & Git")
 
 -------------
 ## Education
