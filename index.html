@@ -34,48 +34,51 @@
             <p class="tag" id="menu">&lt;/Menu&gt;</p>
             <h2 class="tag" id="contact-information">&lt;Contact Information&gt;</h2>
             <ul class="list">
-                <li><strong>Location:</strong> Brest, Belarus</li>
-                <li><strong>Phone:</strong> +375 29 209-27-50</li>
-                <li><strong>E-Mail:</strong> aostrovsky87@gmail.com</li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/sylarBrest" title="GitHub sylarBrest">sylarBrest</a></li>
-                <li><strong>Telegram:</strong> <a href="https://t.me/sylarBrest" title="Chat with sylarBrest">@sylarBrest</a></li>
+                <li><strong>Location:</strong>Brest, Belarus</li>
+                <li><strong>Phone:</strong>+375 29 209-27-50</li>
+                <li><strong>E-Mail:</strong><a href="mailto:aostrovsky87@gmail.com">aostrovsky87@gmail.com</a></li>
+                <li><strong>GitHub:</strong><a href="https://github.com/sylarBrest" title="GitHub sylarBrest">sylarBrest</a></li>
+                <li><strong>Telegram:</strong><a href="https://t.me/sylarBrest" title="Chat with sylarBrest">@sylarBrest</a></li>
             </ul>
             <p class="tag" id="contact-information">&lt;/Contact Information&gt;</p>
+            <hr>
         </section>
+        <main>
+            <h2 class="tag" id="about-me">&lt;About Me&gt;</h2>
+            <p class="about-me">For about 10 years I work as system administrator in Brest State A.S. Pushkin University. It’s a cool job, but now I want to change direction in IT. I want users could  see  result of my job by their eyes.</p>
+            <p class="about-me">I would make huge work to learn JS and React.</p>
+            <p class="tag" id="about-me">&lt;/About Me&gt;</p>
+            <hr>
+        </main>
+        <section>
+            <h2 class="tag" id="skills">&lt;Skills&gt;</h2>
+            <ul class="list">
+              <li>HTML5, CSS3</li>
+              <li>JavaScript (basics)</li>
+              <li>Git (basics)</li>
+              <li>PHP, SQL (basics)</li>
+              <li>Unix &amp; Windows administration</li>
+            </ul>
+            <p class="tag" id="skills">&lt;/Skills&gt;</p>
+            <hr>
+        </section>
+        <section><h2 class="tag" id="code-example">&lt;Code example&gt;</h2>
+            <p class="about-me">Given a non-negative integer <code>n</code>, write a function <code>to_binary/toBinary</code> which returns that number in a binary format.</p>
+            <div class="code">
+                <pre><code>function toBinary(n) {
+    var x;
+    x='';
+    while (n!=0) {
+        x=n%2+x;
+        n=Math.trunc(n/2);
+    }
+    return Number(x);
+}
+                </code></pre>
+            </div>
+        <p class="tag" id="code-example">&lt;/Code example&gt;</p>
         <hr>
-        <h2 id="about-me">About Me</h2>
-
-        <p>For about 10 years I work as system administrator in Brest State A.S. Pushkin University. It’s a cool job, but now I want to change direction in IT. I want users could see  result of my job by their eyes.</p>
-
-        <p>I would make huge work to learn JS and React.</p>
-
-        <hr>
-        <h2 id="skills">Skills</h2>
-        <ul>
-          <li>HTML5, CSS3</li>
-          <li>JavaScript (basics)</li>
-          <li>Git (basics)</li>
-          <li>PHP, SQL (basics)</li>
-          <li>Unix &amp; Windows administration</li>
-        </ul>
-
-        <hr>
-        <h2 id="code-example">Code example</h2>
-
-        <p>Given a non-negative integer <code>n</code>, write a function <code>to_binary/ToBinary</code> which returns that number in a binary format.</p>
-
-        <div><pre><code>function toBinary(n){
-            var x;
-            x='';
-            while (n!=0) {
-                x=n%2+x;
-                n=Math.trunc(n/2);
-            }
-            return Number(x);
-        }
-        </code></pre></div>
-
-        <hr>
+        </section>
         <h2 id="experience">Experience</h2>
 
         <ul>
@@ -102,6 +105,12 @@
         <p><img src="certificate_70.png" alt="EF SET Certificate"></p>
 
         <p><strong>Russian</strong> - Native speaker</p>
+        <footer>
+            <p class="tag" id="head">&lt;Footer&gt;</p>
+            <p class="footer">2021</p>
+            <p class="tag" id="head">&lt;/Footer&gt;</p>
+        </footer>
+
     </div>
 </body>
 </html>

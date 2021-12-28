@@ -6,7 +6,7 @@ ul {
 body {
     background: #dbdbdb;
     color: #ffffff;
-    font: normal 16px Arial sans-serif;
+    font: normal 18px Arial sans-serif;
 }
 
 .block-center {
@@ -42,7 +42,20 @@ body {
     padding-left: 30px;
 }
 
-#contact-information {
+.about-me {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.code {
+    margin: 0 50px;
+    background: #3a3a3a;
+}
+
+#contact-information,
+#about-me,
+#skills,
+#code-example {
     font-size: 24px;
     text-transform: lowercase;
     padding-left: 30px;
@@ -56,8 +69,8 @@ body {
 
 .oneline {
     display: inline;
-    margin: 0;
-    padding: 0 0 0 5px;
+    margin: 0 0 0 5px;
+    text-decoration: underline;
 }
 
 .my-photo {
@@ -94,8 +107,26 @@ h1 {
 
 a {
     color: #94c1df;
+    text-decoration: none;
 }
 
 h2 {
     font-weight: normal;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    background: #292929;
+}
+
+.footer {
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+code {
+    color: #007430
 }
