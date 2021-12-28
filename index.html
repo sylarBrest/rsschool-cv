@@ -10,57 +10,57 @@
 <body>
     <div class="block-center">
         <header>
-            <p class="tag" id="html">&lt;Html&gt;</p>
-            <p class="tag" id="head">&lt;Head&gt;</p>
+            <p class="tag html">&lt;Html&gt;</p>
+            <p class="tag head">&lt;Head&gt;</p>
             <img class="my-photo" src="photo.jpg" alt="My photo" width="347" height="400">
             <h1>// Aliaksandr<br>// Astrouski</h1>
-            <p class="tag" id="title">&lt;Title&gt;<span class="fe">Junior Front-end Developer</span>&lt;/Title&gt;</p>
-            <p class="tag" id="head">&lt;/Head&gt;</p>
-            <p class="tag" id="body">&lt;Body&gt;</p>
-            <p class="tag" id="menu">&lt;Menu&gt;</p>
+            <p class="tag title">&lt;Title&gt;<span class="fe">Junior Front-end Developer</span>&lt;/Title&gt;</p>
+            <p class="tag head">&lt;/Head&gt;</p>
+            <p class="tag body">&lt;Body&gt;</p>
         </header>
-        <nav class="menu">
-            <ul>
-                <li class="oneline"><a href="#contact-information">Contact Information</a></li>
-                <li class="oneline"><a href="#about-me">About Me</a></li>
-                <li class="oneline"><a href="#skills">Skills</a></li>
-                <li class="oneline"><a href="#code-example">Code Example</a></li>
-                <li class="oneline"><a href="#experience">Experience</a></li>
-                <li class="oneline"><a href="#education">Education</a></li>
-                <li class="oneline"><a href="#languages">Languages</a></li>
-            </ul>
-        </nav>
+        <div id="menu">
+            <p class="tag menu">&lt;Menu&gt;</p>
+            <nav>
+                <ul>
+                    <li class="oneline"><a href="#contact-information">Contact Information</a></li>
+                    <li class="oneline"><a href="#about-me">About Me</a></li>
+                    <li class="oneline"><a href="#skills">Skills</a></li>
+                    <li class="oneline"><a href="#code-example">Code Example</a></li>
+                    <li class="oneline"><a href="#experience">Experience</a></li>
+                    <li class="oneline"><a href="#education">Education</a></li>
+                    <li class="oneline"><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+            <p class="tag menu">&lt;/Menu&gt;</p>
+            <hr>
+        </div>
         <section>
-            <p class="tag" id="menu">&lt;/Menu&gt;</p>
             <h2 class="tag" id="contact-information">&lt;Contact Information&gt;</h2>
             <ul class="list">
-                <li><strong>Location:</strong>Brest, Belarus</li>
-                <li><strong>Phone:</strong>+375 29 209-27-50</li>
-                <li><strong>E-Mail:</strong><a href="mailto:aostrovsky87@gmail.com">aostrovsky87@gmail.com</a></li>
-                <li><strong>GitHub:</strong><a href="https://github.com/sylarBrest" title="GitHub sylarBrest">sylarBrest</a></li>
-                <li><strong>Telegram:</strong><a href="https://t.me/sylarBrest" title="Chat with sylarBrest">@sylarBrest</a></li>
+                <li><span class="item">&lt;li&gt;</span><strong>Location:</strong> Brest, Belarus<span class="item">&lt;/li&gt;</span></li>
+                <li><span class="item">&lt;li&gt;</span><strong>Phone:</strong> +375 29 209-27-50<span class="item">&lt;/li&gt;</span></li>
+                <li><span class="item">&lt;li&gt;</span><strong>E-Mail:</strong> <a href="mailto:aostrovsky87@gmail.com">aostrovsky87@gmail.com</a><span class="item">&lt;/li&gt;</span></li>
+                <li><span class="item">&lt;li&gt;</span><strong>GitHub:</strong> <a href="https://github.com/sylarBrest" title="GitHub sylarBrest">sylarBrest</a><span class="item">&lt;/li&gt;</span></li>
+                <li><span class="item">&lt;li&gt;</span><strong>Telegram:</strong> <a href="https://t.me/sylarBrest" title="Chat with sylarBrest">@sylarBrest</a><span class="item">&lt;/li&gt;</span></li>
             </ul>
             <p class="tag" id="contact-information">&lt;/Contact Information&gt;</p>
-            <hr>
         </section>
         <main>
             <h2 class="tag" id="about-me">&lt;About Me&gt;</h2>
             <p class="about-me">For about 10 years I work as system administrator in Brest State A.S. Pushkin University. It’s a cool job, but now I want to change direction in IT. I want users could  see  result of my job by their eyes.</p>
             <p class="about-me">I would make huge work to learn JS and React.</p>
             <p class="tag" id="about-me">&lt;/About Me&gt;</p>
-            <hr>
         </main>
         <section>
             <h2 class="tag" id="skills">&lt;Skills&gt;</h2>
             <ul class="list">
-              <li>HTML5, CSS3</li>
-              <li>JavaScript (basics)</li>
-              <li>Git (basics)</li>
-              <li>PHP, SQL (basics)</li>
-              <li>Unix &amp; Windows administration</li>
+              <li><span class="item">&lt;li&gt;</span>HTML5, CSS3<span class="item">&lt;/li&gt;</span></li>
+              <li><span class="item">&lt;li&gt;</span>JavaScript (basics)<span class="item">&lt;/li&gt;</span></li>
+              <li><span class="item">&lt;li&gt;</span>Git (basics)<span class="item">&lt;/li&gt;</span></li>
+              <li><span class="item">&lt;li&gt;</span>PHP, SQL (basics)<span class="item">&lt;/li&gt;</span></li>
+              <li><span class="item">&lt;li&gt;</span>Unix &amp; Windows administration<span class="item">&lt;/li&gt;</span></li>
             </ul>
             <p class="tag" id="skills">&lt;/Skills&gt;</p>
-            <hr>
         </section>
         <section><h2 class="tag" id="code-example">&lt;Code example&gt;</h2>
             <p class="about-me">Given a non-negative integer <code>n</code>, write a function <code>to_binary/toBinary</code> which returns that number in a binary format.</p>
@@ -76,8 +76,7 @@
 }
                 </code></pre>
             </div>
-        <p class="tag" id="code-example">&lt;/Code example&gt;</p>
-        <hr>
+            <p class="tag" id="code-example">&lt;/Code example&gt;</p>
         </section>
         <h2 id="experience">Experience</h2>
 
@@ -85,7 +84,6 @@
           <li><a href="https://sylarbrest.github.io/rsschool-cv/cv" title="CV#1. Markdown &amp; Git">CV#1. Markdown &amp; Git</a></li>
         </ul>
 
-        <hr>
         <h2 id="education">Education</h2>
 
         <ul>
@@ -98,7 +96,6 @@
           <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
         </ul>
 
-        <hr>
         <h2 id="languages">Languages</h2>
         <p><strong>English</strong> - Intermediate/Upper-Intermediate</p>
 
@@ -107,7 +104,7 @@
         <p><strong>Russian</strong> - Native speaker</p>
         <footer>
             <p class="tag" id="head">&lt;Footer&gt;</p>
-            <p class="footer">2021</p>
+            <p class="footer">2021 Aliaksandr Astrouski</p>
             <p class="tag" id="head">&lt;/Footer&gt;</p>
         </footer>
 
