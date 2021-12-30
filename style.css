@@ -75,6 +75,7 @@ main {
     position: sticky;
     top: 0;
     background: #292929;
+    margin: 0;
 }
 
 nav {
