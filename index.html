@@ -98,9 +98,9 @@ toReadable(997); // will return 'nine hundred ninety seven'</code></pre>
         'eighteen', 'nineteen'];
     const decNumbers = ['twenty', 'thirty', 'forty', 'fifty', 'sixty',
         'seventy', 'eighty', 'ninety'];
-    if (number < 20) {
+    if (number &lt; 20) {
         return textNumbers[number];
-    } else if (number < 100) {
+    } else if (number &lt; 100) {
         return `${decNumbers[Math.floor(number / 10) - 2]}
             ${toReadable(number % 10)}`.replace(' zero', '' );
     } else {
